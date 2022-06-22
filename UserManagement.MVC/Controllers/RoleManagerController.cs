@@ -31,5 +31,14 @@ namespace UserManagement.MVC.Controllers
             }
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public async Task<IActionResult> DeleteRole(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+
+            await _roleManager.DeleteAsync(role);
+            
+            return RedirectToAction("Index");
+        }
     }
 }

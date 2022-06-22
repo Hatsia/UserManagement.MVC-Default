@@ -17,9 +17,9 @@
 <table class="table table-striped">
     <thead>
         <tr>
-
             <th>Id</th>
             <th>Role</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -28,6 +28,15 @@
             <tr>
                 <td>@role.Id</td>
                 <td>@role.Name</td>
+                <td>
+                    <form method="post" asp-action="DeleteRole" asp-controller="RoleManager" asp-route-id="@role.Id">
+                        @*<div class="input-group">*@
+                            <span class="deleteSpan_@role.Id">
+                                <button class="btn btn-info">Delete Role</button>
+                            </span>
+                        @*</div>*@
+                    </form>
+                </td>
             </tr>
         }
 
