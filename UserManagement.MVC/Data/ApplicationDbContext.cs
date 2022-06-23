@@ -53,5 +53,6 @@ namespace UserManagement.MVC.Data
                 entity.ToTable("UserTokens");
             });
         }
+        public DbSet<UserManagement.MVC.Models.Product> Product { get; set; }
     }
 }
