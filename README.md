@@ -24,9 +24,4 @@ If you found this Implementation helpful or used it in your Projects, do give it
 - Listing Users with Corresponding Roles
 - Addings Users to Roles
 
-Read the entire blog post here - https://www.codewithmukesh.com/blog/user-management-in-aspnet-core-mvc/
-
-## Support
-Has this Project helped you learn something New? or Helped you at work? Do Consider Supporting.
-
-<a href="https://www.buymeacoffee.com/codewithmukesh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="200"  ></a>
+Read the entire blog post here - https://www.codewithmukesh.com/blog/user-management-in-aspnet-core-mvc
